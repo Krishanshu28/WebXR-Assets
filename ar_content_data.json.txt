@@ -1,0 +1,34 @@
+{
+  "arContent": [
+    {
+      "id": "model_1",
+      "targetName": "UnityLogoImage",  // <<< IMPORTANT: This name must match your image target
+      "contentType": "model",
+      "url": "YOUR_RAW_GITHUB_URL_FOR_GLB_MODEL", // Placeholder - you'll update this
+      "scale": 0.1,
+      "positionOffset": {"x": 0, "y": 0, "z": 0},
+      "rotationOffset": {"x": 0, "y": 0, "z": 0},
+      "animationName": "Idle"
+    },
+    {
+      "id": "video_1",
+      "targetName": "QRCodeImage", // <<< IMPORTANT: This name must match your image target
+      "contentType": "video",
+      "url": "YOUR_RAW_GITHUB_URL_FOR_MP4_VIDEO", // Placeholder - you'll update this
+      "scale": 0.2,
+      "positionOffset": {"x": 0, "y": 0.5, "z": 0},
+      "rotationOffset": {"x": 90, "y": 0, "z": 0}, // Often needed to lay video flat
+      "loop": true,
+      "autoplay": true
+    },
+    {
+      "id": "text_1",
+      "targetName": "UnityLogoImage", // Can target the same image as model_1
+      "contentType": "text",
+      "text": "Welcome to WebAR!",
+      "fontSize": 0.05,
+      "textColor": {"r": 1, "g": 0, "b": 0, "a": 1},
+      "positionOffset": {"x": 0, "y": 0.3, "z": 0}
+    }
+  ]
+}
