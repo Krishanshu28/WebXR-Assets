@@ -1,0 +1,17 @@
+{
+  "image_target": "https://yourdomain.com/ace.zpt",
+  "contents": [
+    {
+      "type": "model",
+      "url": "https://github.com/Krishanshu28/WebXR-Assets/blob/main/ace_one_piece.glb",
+      "position": [0, 0, 0],
+      "scale": [1, 1, 1]
+    },
+    {
+      "type": "text",
+      "text": "Welcome to ACE AR Experience!",
+      "position": [0, 0.2, 0],
+      "color": "#ffffff"
+    }
+  ]
+}
