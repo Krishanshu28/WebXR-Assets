@@ -1,9 +1,0 @@
-{
-  "targets": [
-    {
-      "id": "QRCodeImage",
-      "model_url": "https://github.com/Krishanshu28/WebXR-Assets/blob/main/ace_one_piece.glb",
-      "label": "This is the Ace Card AR Model!"
-    }
-  ]
-}
