@@ -1,0 +1,4 @@
+{
+  "modelUrl": "https://yourdomain.com/models/sample.glb",
+  "label": "Welcome to ACE AR!"
+}
